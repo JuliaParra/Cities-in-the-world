@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.city-card, .restaurant-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.city-card img, .restaurant-card .circle {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.img-container {
+    height: 200px; /* Ajusta esta altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.img-container img {
+    height: 100%;
+    width: auto;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #dc3545;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #343a40;
+    height: 100px;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.ranking-list, .city-card, .restaurant-card {
+    margin-bottom: 20px;
+}
